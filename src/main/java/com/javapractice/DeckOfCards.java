@@ -11,6 +11,7 @@ public class DeckOfCards {
     private ArrayList<HashMap<String, String>> cards = new ArrayList<>();
     private String[] suits = { "Clubs", "Diamonds", "Hearts", "Spades" };
     private String[] ranks = { "2", "3", "4", "5", "6", "7", "8","9", "10", "Jack", "Queen", "King", "Ace" };
+    private Queue queue =new Queue();
     private HashMap<String, String>[][] players = (HashMap<String, String>[][]) new HashMap[4][9];
     private static final Logger log = LogManager.getLogger(DeckOfCards.class);
 
@@ -35,6 +36,17 @@ public class DeckOfCards {
         }
     }
 
+    private void addCardToQueue(){
+        for (int i = 0; i < cards.size(); i++) {        
+            HashMap<String, String> temp = cards.get(i);
+            String suit=temp.get("suit");
+            String rank=temp.get("rank");
+            INode card=new Card(suit,rank);
+            queue.enqueue(card);
+        }
+        queue.displayQueue();
+        
+    }
     public void distributeCards() {
         int deckindex = 0;
         for (int i = 0; i < players.length; i++) {
@@ -61,6 +73,7 @@ public class DeckOfCards {
         System.out.println("Welcome to deck of cards program!");
         deckOfCards.makeCards();
         deckOfCards.shuffleCards();
+        deckOfCards.addCardToQueue();
         deckOfCards.distributeCards();
         deckOfCards.displayCards();
     }
