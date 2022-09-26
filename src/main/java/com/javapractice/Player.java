@@ -2,8 +2,15 @@ package com.javapractice;
 
 public class Player<K> implements INode<K>{
  K name;
- K cardQueue;
+ K deckOfCards;
  INode<K> next;
+
+
+ public Player(K name, K cardQueue) {
+  this.name=name;
+  this.deckOfCards=cardQueue;
+  this.next=null;
+}
   @Override
   public K getKey1() {
     return this.name;
@@ -17,12 +24,12 @@ public class Player<K> implements INode<K>{
 
   @Override
   public K getKey2() {
-    return cardQueue;
+    return deckOfCards;
   }
 
   @Override
   public void setKey2(K key) {
-    this.cardQueue=cardQueue;
+    this.deckOfCards=key;
   }
 
   @Override

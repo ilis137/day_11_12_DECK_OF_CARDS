@@ -3,6 +3,7 @@ package com.javapractice;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
+import java.util.Scanner;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,11 +11,18 @@ import org.apache.logging.log4j.Logger;
 public class DeckOfCards {
     private ArrayList<HashMap<String, String>> cards = new ArrayList<>();
     private String[] suits = { "Clubs", "Diamonds", "Hearts", "Spades" };
-    private String[] ranks = { "2", "3", "4", "5", "6", "7", "8","9", "10", "Jack", "Queen", "King", "Ace" };
-    private Queue queue =new Queue();
-    private HashMap<String, String>[][] players = (HashMap<String, String>[][]) new HashMap[4][9];
+    private String[] ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace" };
+    private Queue<Card> cardQueue = new Queue<Card>();
+    private Queue<Player> playerQueue = new Queue<Player>();
+    int noOfPlayers = 4;
+    int cardsToDistribute = 9;
+
     private static final Logger log = LogManager.getLogger(DeckOfCards.class);
 
+    public DeckOfCards() {
+
+    }
+    //make cards from suits and rank
     private void makeCards() {
         for (String suit : suits) {
             for (String rank : ranks) {
@@ -25,57 +33,98 @@ public class DeckOfCards {
             }
         }
     }
+    //print all the cards in cards array
+    private void printCards() {
+        log.info("cards in the deck are: ");
+        for (HashMap<String, String> card : cards) {
+            log.info(card.get("suit") + " of " + card.get("rank"));
+        }
+    }
+    //create players and initialize deck
+    private void createPlayers() {
+        Scanner sc = new Scanner(System.in);
+        String name;
+        for (int i = 0; i < noOfPlayers; i++) {
+            log.info("Enter the name of player " + (i + 1));
+            name = sc.nextLine();//take player names from user
+            Player player = new Player(name, new Queue());
+            playerQueue.enqueue(player);
+        }
+    }
 
-    private void shuffleCards() {
+    //shuffle cards
+    public void shuffleCards() {
         Random rand = new Random();
+        log.info("cards after shuffling are: ");
         for (int i = 0; i < cards.size(); i++) {
-            int r = i + rand.nextInt(52 - i);
+            int r = i + rand.nextInt(52 - i);//get a random index in the random part of the array
             HashMap<String, String> temp = cards.get(r);
+            //shuffle cards in the remaining part of deck
             cards.set(r, cards.get(i));
             cards.set(i, temp);
         }
+
+    }
+    
+
+    //add shuffled cards to queue
+    private void addCardToQueue() {
+        for (int i = 0; i < cards.size(); i++) {
+
+            HashMap<String, String> temp = cards.get(i);//retreving the card from the array
+            String suit = temp.get("suit");
+            String rank = temp.get("rank");
+            INode card = new Card(suit, rank);//create a card with suit and rank;
+            cardQueue.enqueue(card);//purt card into the queue
+        }
     }
 
-    private void addCardToQueue(){
-        for (int i = 0; i < cards.size(); i++) {        
-            HashMap<String, String> temp = cards.get(i);
-            String suit=temp.get("suit");
-            String rank=temp.get("rank");
-            INode card=new Card(suit,rank);
-            queue.enqueue(card);
-        }
-        queue.displayQueue();
-        
-    }
+
+    //distribute cards to players and add cards to their decks
     public void distributeCards() {
-        int deckindex = 0;
-        for (int i = 0; i < players.length; i++) {
-        
-            for (int j = 0; j < players[i].length; j++) {
-                players[i][j] = cards.get(deckindex);
-                deckindex++;
-            }
+        INode player, card;
+        int count = 0;
 
+        log.info("distributing cards: ");
+        while (count < noOfPlayers) {
+            player = playerQueue.dequeue();//deque player from queue to retreive its information
+            Queue playerCards = (Queue) player.getKey2();//get the player's  cards queue
+            //push nine cards to each player cards queue
+            for (int j = 0; j < cardsToDistribute; j++) {
+                card = cardQueue.dequeue();
+                playerCards.enqueue(card);
+            }
+            //sort cards queue
+            ((Queue) player.getKey2()).sortCardQueueByRank();
+            playerQueue.enqueue(player);//re-enter player to player queue
+            count++;
         }
     }
-
-    public void displayCards() {
-        for (int i = 0; i < players.length; i++) {
-            log.info("player is " + (i + 1));
-            for (int j = 0; j < players[i].length; j++) {
-                log.info("player " + (i + 1) + " has " + players[i][j].get("suit") + " of " + players[i][j].get("rank"));
-            }
+    //display the cards assigned to players
+    public void display() {
+        int count = 0;
+        //iterate over player queue and print player and cards they have
+        while (count < noOfPlayers) {//use of noOfPlayers as their reference
+            INode player = playerQueue.dequeue();
+            String name = (String) player.getKey1();
+            log.info("player is " + name);
+            Queue deckOfCards = (Queue) player.getKey2();
+            deckOfCards.displayCards(name);
+            playerQueue.enqueue(player);
+            count++;
         }
     }
 
     public static void main(String[] args) {
         DeckOfCards deckOfCards = new DeckOfCards();
         System.out.println("Welcome to deck of cards program!");
+        deckOfCards.createPlayers();
         deckOfCards.makeCards();
+        deckOfCards.printCards();
         deckOfCards.shuffleCards();
         deckOfCards.addCardToQueue();
         deckOfCards.distributeCards();
-        deckOfCards.displayCards();
+        deckOfCards.display();
     }
 
 }
