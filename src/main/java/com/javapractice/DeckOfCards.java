@@ -62,7 +62,7 @@ public class DeckOfCards {
             cards.set(r, cards.get(i));
             cards.set(i, temp);
         }
-        log.info("---------cards after shuffling----------- ");
+    
     }
     
 
@@ -127,8 +127,8 @@ public class DeckOfCards {
         System.out.println("Welcome to deck of cards program!");
         deckOfCards.createPlayers();
         deckOfCards.makeCards();
-        deckOfCards.shuffleCards();
         deckOfCards.printCards();
+        deckOfCards.shuffleCards();
         deckOfCards.addCardToQueue();
         deckOfCards.distributeCards();
         deckOfCards.display();
