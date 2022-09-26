@@ -80,16 +80,5 @@ public class Queue<T> {
     }
   }
 
- 
-//display cards in players queue
-  public void displayCards(String name) {
-    INode temp = this.front;
-    
-    while (temp != null) {
-      log.info("player " + name + " has " + temp.getKey2() + " of " + temp.getKey1());
-      temp = temp.getNext();
-    }
-  }
-
 
 }

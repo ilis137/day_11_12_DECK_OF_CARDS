@@ -6178,3 +6178,174 @@ INFO  | 2022-09-26 07:24:07,743(yyyy-MM-dd HH:mm:ss) | [main] javapractice.Queue
 INFO  | 2022-09-26 07:24:07,744(yyyy-MM-dd HH:mm:ss) | [main] javapractice.Queue (Queue.java:92) - player jish has 9 of Diamonds
 INFO  | 2022-09-26 07:24:07,745(yyyy-MM-dd HH:mm:ss) | [main] javapractice.Queue (Queue.java:92) - player jish has 10 of Diamonds
 INFO  | 2022-09-26 07:24:07,746(yyyy-MM-dd HH:mm:ss) | [main] javapractice.Queue (Queue.java:92) - player jish has Ace of Diamonds
+INFO  | 2022-09-26 10:00:45,361(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:48) - Enter the name of player 1
+INFO  | 2022-09-26 10:00:50,638(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:48) - Enter the name of player 2
+INFO  | 2022-09-26 10:00:54,112(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:48) - Enter the name of player 3
+INFO  | 2022-09-26 10:00:55,907(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:48) - Enter the name of player 4
+INFO  | 2022-09-26 10:00:59,328(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:38) - cards in the deck are: 
+INFO  | 2022-09-26 10:00:59,329(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 2
+INFO  | 2022-09-26 10:00:59,330(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 3
+INFO  | 2022-09-26 10:00:59,331(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 4
+INFO  | 2022-09-26 10:00:59,333(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 5
+INFO  | 2022-09-26 10:00:59,334(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 6
+INFO  | 2022-09-26 10:00:59,335(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 7
+INFO  | 2022-09-26 10:00:59,336(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 8
+INFO  | 2022-09-26 10:00:59,337(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 9
+INFO  | 2022-09-26 10:00:59,338(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 10
+INFO  | 2022-09-26 10:00:59,340(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of Jack
+INFO  | 2022-09-26 10:00:59,340(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of Queen
+INFO  | 2022-09-26 10:00:59,341(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of King
+INFO  | 2022-09-26 10:00:59,344(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of Ace
+INFO  | 2022-09-26 10:00:59,346(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 2
+INFO  | 2022-09-26 10:00:59,347(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 3
+INFO  | 2022-09-26 10:00:59,348(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 4
+INFO  | 2022-09-26 10:00:59,349(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 5
+INFO  | 2022-09-26 10:00:59,350(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 6
+INFO  | 2022-09-26 10:00:59,351(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 7
+INFO  | 2022-09-26 10:00:59,352(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 8
+INFO  | 2022-09-26 10:00:59,354(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 9
+INFO  | 2022-09-26 10:00:59,354(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 10
+INFO  | 2022-09-26 10:00:59,355(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of Jack
+INFO  | 2022-09-26 10:00:59,356(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of Queen
+INFO  | 2022-09-26 10:00:59,357(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of King
+INFO  | 2022-09-26 10:00:59,357(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of Ace
+INFO  | 2022-09-26 10:00:59,358(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 2
+INFO  | 2022-09-26 10:00:59,359(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 3
+INFO  | 2022-09-26 10:00:59,360(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 4
+INFO  | 2022-09-26 10:00:59,363(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 5
+INFO  | 2022-09-26 10:00:59,364(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 6
+INFO  | 2022-09-26 10:00:59,365(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 7
+INFO  | 2022-09-26 10:00:59,366(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 8
+INFO  | 2022-09-26 10:00:59,367(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 9
+INFO  | 2022-09-26 10:00:59,368(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 10
+INFO  | 2022-09-26 10:00:59,370(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of Jack
+INFO  | 2022-09-26 10:00:59,371(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of Queen
+INFO  | 2022-09-26 10:00:59,372(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of King
+INFO  | 2022-09-26 10:00:59,372(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of Ace
+INFO  | 2022-09-26 10:00:59,373(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 2
+INFO  | 2022-09-26 10:00:59,374(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 3
+INFO  | 2022-09-26 10:00:59,375(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 4
+INFO  | 2022-09-26 10:00:59,376(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 5
+INFO  | 2022-09-26 10:00:59,377(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 6
+INFO  | 2022-09-26 10:00:59,379(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 7
+INFO  | 2022-09-26 10:00:59,380(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 8
+INFO  | 2022-09-26 10:00:59,382(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 9
+INFO  | 2022-09-26 10:00:59,384(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 10
+INFO  | 2022-09-26 10:00:59,385(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of Jack
+INFO  | 2022-09-26 10:00:59,385(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of Queen
+INFO  | 2022-09-26 10:00:59,386(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of King
+INFO  | 2022-09-26 10:00:59,387(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of Ace
+INFO  | 2022-09-26 10:00:59,389(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:58) - cards after shuffling are: 
+INFO  | 2022-09-26 10:00:59,391(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:88) - distributing cards: 
+INFO  | 2022-09-26 10:00:59,392(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:111) - player is john
+INFO  | 2022-09-26 10:00:59,392(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:116) - player john has 3 of Clubs
+INFO  | 2022-09-26 10:00:59,394(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:116) - player john has 4 of Hearts
+INFO  | 2022-09-26 10:00:59,395(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:116) - player john has 5 of Clubs
+INFO  | 2022-09-26 10:00:59,397(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:116) - player john has 5 of Spades
+INFO  | 2022-09-26 10:00:59,398(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:116) - player john has 8 of Hearts
+INFO  | 2022-09-26 10:00:59,399(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:116) - player john has 9 of Diamonds
+INFO  | 2022-09-26 10:00:59,400(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:116) - player john has 9 of Hearts
+INFO  | 2022-09-26 10:00:59,401(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:116) - player john has Ace of Diamonds
+INFO  | 2022-09-26 10:00:59,402(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:116) - player john has Ace of Hearts
+INFO  | 2022-09-26 10:00:59,403(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:111) - player is jack
+INFO  | 2022-09-26 10:00:59,403(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:111) - player is alice
+INFO  | 2022-09-26 10:00:59,404(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:111) - player is jean
+INFO  | 2022-09-26 10:03:49,257(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:48) - Enter the name of player 1
+INFO  | 2022-09-26 10:03:54,716(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:48) - Enter the name of player 2
+INFO  | 2022-09-26 10:03:57,022(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:48) - Enter the name of player 3
+INFO  | 2022-09-26 10:03:58,771(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:48) - Enter the name of player 4
+INFO  | 2022-09-26 10:04:00,709(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:58) - cards after shuffling are: 
+INFO  | 2022-09-26 10:04:00,710(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:38) - cards in the deck are: 
+INFO  | 2022-09-26 10:04:00,711(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 5
+INFO  | 2022-09-26 10:04:00,712(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 4
+INFO  | 2022-09-26 10:04:00,714(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of Ace
+INFO  | 2022-09-26 10:04:00,716(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 4
+INFO  | 2022-09-26 10:04:00,717(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 6
+INFO  | 2022-09-26 10:04:00,718(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 8
+INFO  | 2022-09-26 10:04:00,719(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 6
+INFO  | 2022-09-26 10:04:00,719(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 5
+INFO  | 2022-09-26 10:04:00,720(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 5
+INFO  | 2022-09-26 10:04:00,721(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 8
+INFO  | 2022-09-26 10:04:00,722(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of Queen
+INFO  | 2022-09-26 10:04:00,722(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 3
+INFO  | 2022-09-26 10:04:00,724(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of Ace
+INFO  | 2022-09-26 10:04:00,725(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 5
+INFO  | 2022-09-26 10:04:00,727(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 9
+INFO  | 2022-09-26 10:04:00,729(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 10
+INFO  | 2022-09-26 10:04:00,730(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 2
+INFO  | 2022-09-26 10:04:00,731(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of Queen
+INFO  | 2022-09-26 10:04:00,733(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 9
+INFO  | 2022-09-26 10:04:00,734(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 6
+INFO  | 2022-09-26 10:04:00,735(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of Jack
+INFO  | 2022-09-26 10:04:00,735(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 2
+INFO  | 2022-09-26 10:04:00,736(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of Ace
+INFO  | 2022-09-26 10:04:00,737(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 3
+INFO  | 2022-09-26 10:04:00,738(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 7
+INFO  | 2022-09-26 10:04:00,739(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 8
+INFO  | 2022-09-26 10:04:00,740(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of Queen
+INFO  | 2022-09-26 10:04:00,742(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of Queen
+INFO  | 2022-09-26 10:04:00,744(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of King
+INFO  | 2022-09-26 10:04:00,746(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 10
+INFO  | 2022-09-26 10:04:00,747(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 9
+INFO  | 2022-09-26 10:04:00,748(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 7
+INFO  | 2022-09-26 10:04:00,749(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 9
+INFO  | 2022-09-26 10:04:00,749(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 7
+INFO  | 2022-09-26 10:04:00,750(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 6
+INFO  | 2022-09-26 10:04:00,751(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of Ace
+INFO  | 2022-09-26 10:04:00,752(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of Jack
+INFO  | 2022-09-26 10:04:00,752(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 4
+INFO  | 2022-09-26 10:04:00,753(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 4
+INFO  | 2022-09-26 10:04:00,753(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of Jack
+INFO  | 2022-09-26 10:04:00,754(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of King
+INFO  | 2022-09-26 10:04:00,755(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of King
+INFO  | 2022-09-26 10:04:00,755(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of 3
+INFO  | 2022-09-26 10:04:00,756(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Clubs of King
+INFO  | 2022-09-26 10:04:00,756(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 10
+INFO  | 2022-09-26 10:04:00,758(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of 2
+INFO  | 2022-09-26 10:04:00,761(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 2
+INFO  | 2022-09-26 10:04:00,762(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 7
+INFO  | 2022-09-26 10:04:00,762(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 3
+INFO  | 2022-09-26 10:04:00,763(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Diamonds of Jack
+INFO  | 2022-09-26 10:04:00,763(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Hearts of 10
+INFO  | 2022-09-26 10:04:00,764(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:40) - Spades of 8
+INFO  | 2022-09-26 10:04:00,765(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:88) - distributing cards: 
+INFO  | 2022-09-26 10:04:00,766(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:112) - player is john
+INFO  | 2022-09-26 10:04:00,766(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player john has 4 of Hearts
+INFO  | 2022-09-26 10:04:00,767(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player john has 4 of Diamonds
+INFO  | 2022-09-26 10:04:00,768(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player john has 5 of Clubs
+INFO  | 2022-09-26 10:04:00,768(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player john has 5 of Hearts
+INFO  | 2022-09-26 10:04:00,769(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player john has 5 of Spades
+INFO  | 2022-09-26 10:04:00,769(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player john has 6 of Hearts
+INFO  | 2022-09-26 10:04:00,770(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player john has 6 of Spades
+INFO  | 2022-09-26 10:04:00,770(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player john has 8 of Hearts
+INFO  | 2022-09-26 10:04:00,771(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player john has Ace of Diamonds
+INFO  | 2022-09-26 10:04:00,771(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:112) - player is jack
+INFO  | 2022-09-26 10:04:00,772(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jack has 2 of Clubs
+INFO  | 2022-09-26 10:04:00,772(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jack has 3 of Hearts
+INFO  | 2022-09-26 10:04:00,773(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jack has 5 of Diamonds
+INFO  | 2022-09-26 10:04:00,773(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jack has 8 of Clubs
+INFO  | 2022-09-26 10:04:00,775(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jack has 9 of Hearts
+INFO  | 2022-09-26 10:04:00,776(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jack has 10 of Spades
+INFO  | 2022-09-26 10:04:00,778(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jack has Queen of Diamonds
+INFO  | 2022-09-26 10:04:00,779(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jack has Queen of Spades
+INFO  | 2022-09-26 10:04:00,779(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jack has Ace of Hearts
+INFO  | 2022-09-26 10:04:00,780(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:112) - player is jean
+INFO  | 2022-09-26 10:04:00,781(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jean has 2 of Hearts
+INFO  | 2022-09-26 10:04:00,782(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jean has 3 of Diamonds
+INFO  | 2022-09-26 10:04:00,783(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jean has 6 of Clubs
+INFO  | 2022-09-26 10:04:00,783(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jean has 7 of Diamonds
+INFO  | 2022-09-26 10:04:00,784(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jean has 8 of Diamonds
+INFO  | 2022-09-26 10:04:00,785(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jean has 9 of Spades
+INFO  | 2022-09-26 10:04:00,786(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jean has Jack of Spades
+INFO  | 2022-09-26 10:04:00,787(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jean has Queen of Hearts
+INFO  | 2022-09-26 10:04:00,787(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player jean has Ace of Clubs
+INFO  | 2022-09-26 10:04:00,788(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:112) - player is josh
+INFO  | 2022-09-26 10:04:00,789(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player josh has 6 of Diamonds
+INFO  | 2022-09-26 10:04:00,789(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player josh has 7 of Hearts
+INFO  | 2022-09-26 10:04:00,792(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player josh has 7 of Clubs
+INFO  | 2022-09-26 10:04:00,795(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player josh has 9 of Diamonds
+INFO  | 2022-09-26 10:04:00,796(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player josh has 9 of Clubs
+INFO  | 2022-09-26 10:04:00,797(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player josh has 10 of Clubs
+INFO  | 2022-09-26 10:04:00,798(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player josh has Queen of Clubs
+INFO  | 2022-09-26 10:04:00,799(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player josh has King of Hearts
+INFO  | 2022-09-26 10:04:00,800(yyyy-MM-dd HH:mm:ss) | [main] javapractice.DeckOfCards (DeckOfCards.java:117) - player josh has Ace of Spades

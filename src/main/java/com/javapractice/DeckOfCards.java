@@ -102,16 +102,24 @@ public class DeckOfCards {
     }
     //display the cards assigned to players
     public void display() {
-        int count = 0;
+        int count1 = 0;
+      
         //iterate over player queue and print player and cards they have
-        while (count < noOfPlayers) {//use of noOfPlayers as their reference
+        while (count1 < noOfPlayers) {//use of noOfPlayers as their reference
+            int count2 = 0;
             INode player = playerQueue.dequeue();
             String name = (String) player.getKey1();
             log.info("player is " + name);
             Queue deckOfCards = (Queue) player.getKey2();
-            deckOfCards.displayCards(name);
+           
+            while(count2<cardsToDistribute){
+                INode card=deckOfCards.dequeue();
+                log.info("player " + name + " has " + card.getKey2() + " of " + card.getKey1());
+                deckOfCards.enqueue(card);
+                count2++;
+            }
             playerQueue.enqueue(player);
-            count++;
+            count1++;
         }
     }
 
@@ -120,8 +128,8 @@ public class DeckOfCards {
         System.out.println("Welcome to deck of cards program!");
         deckOfCards.createPlayers();
         deckOfCards.makeCards();
-        deckOfCards.printCards();
         deckOfCards.shuffleCards();
+        deckOfCards.printCards();
         deckOfCards.addCardToQueue();
         deckOfCards.distributeCards();
         deckOfCards.display();
