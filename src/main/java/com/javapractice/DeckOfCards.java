@@ -55,7 +55,6 @@ public class DeckOfCards {
     //shuffle cards
     public void shuffleCards() {
         Random rand = new Random();
-        log.info("cards after shuffling are: ");
         for (int i = 0; i < cards.size(); i++) {
             int r = i + rand.nextInt(52 - i);//get a random index in the random part of the array
             HashMap<String, String> temp = cards.get(r);
@@ -63,7 +62,7 @@ public class DeckOfCards {
             cards.set(r, cards.get(i));
             cards.set(i, temp);
         }
-
+        log.info("---------cards after shuffling----------- ");
     }
     
 
